@@ -1,1 +1,121 @@
-IyBwYXBlcmNsaXAtbWNwCgpNQ1Agc2VydmVyIGZvciB0aGUgW1BhcGVyY2xpcF0oaHR0cHM6Ly9wYXBlcmNsaXAuaW5nKSBBSSBhZ2VudCBvcmNoZXN0cmF0aW9uIHBsYXRmb3JtLgoKIyMgVG9vbHMKCnwgVG9vbCB8IERlc2NyaXB0aW9uIHwKfC0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IGBsaXN0X2NvbXBhbmllc2AgfCBMaXN0IGFsbCBjb21wYW5pZXMgfAp8IGBnZXRfY29tcGFueWAgfCBHZXQgY29tcGFueSBkZXRhaWxzIHwKfCBgZ2V0X2Rhc2hib2FyZGAgfCBEYXNoYm9hcmQgb3ZlcnZpZXcgKGFnZW50cywgdGFza3MsIHNwZW5kKSB8CnwgYGNyZWF0ZV9jb21wYW55YCB8IENyZWF0ZSBhIG5ldyBjb21wYW55IHwKfCBgbGlzdF9hZ2VudHNgIHwgTGlzdCBhZ2VudHMgaW4gYSBjb21wYW55IHwKfCBgZ2V0X2FnZW50YCB8IEdldCBhZ2VudCBkZXRhaWxzIHwKfCBgY3JlYXRlX2FnZW50YCB8IEhpcmUgYSBuZXcgYWdlbnQgfAp8IGB1cGRhdGVfYWdlbnRgIHwgVXBkYXRlIGFnZW50IGNvbmZpZyB8CnwgYHBhdXNlX2FnZW50YCB8IFBhdXNlIGFuIGFnZW50J3MgaGVhcnRiZWF0IHwKfCBgcmVzdW1lX2FnZW50YCB8IFJlc3VtZSBhIHBhdXNlZCBhZ2VudCB8CnwgYGdldF9hZ2VudF9za2lsbHNgIHwgR2V0IGFnZW50IFNLSUxMUy5tZCAvIGluc3RydWN0aW9ucyBidW5kbGUgfAp8IGB1cGRhdGVfYWdlbnRfc2tpbGxzX2ZpbGVgIHwgV3JpdGUgYSBmaWxlIHRvIGFnZW50J3MgaW5zdHJ1Y3Rpb25zIGJ1bmRsZSB8CnwgYGRlbGV0ZV9hZ2VudF9za2lsbHNfZmlsZWAgfCBEZWxldGUgYSBmaWxlIGZyb20gYWdlbnQncyBpbnN0cnVjdGlvbnMgYnVuZGxlIHwKfCBgaW52b2tlX2FnZW50X2hlYXJ0YmVhdGAgfCBNYW51YWxseSB0cmlnZ2VyIGFuIGFnZW50IHwKfCBgZ2V0X29yZ19jaGFydGAgfCBHZXQgY29tcGFueSBvcmcgY2hhcnQgfAp8IGBsaXN0X2lzc3Vlc2AgfCBMaXN0IHRhc2tzIHdpdGggZmlsdGVycyB8CnwgYGdldF9pc3N1ZWAgfCBHZXQgdGFzayBkZXRhaWxzIHwKfCBgY3JlYXRlX2lzc3VlYCB8IENyZWF0ZSBhIG5ldyB0YXNrIHwKfCBgdXBkYXRlX2lzc3VlYCB8IFVwZGF0ZSBhIHRhc2sgfAp8IGBkZWxldGVfaXNzdWVgIHwgRGVsZXRlIGEgdGFzayB8CnwgYGFkZF9pc3N1ZV9jb21tZW50YCB8IENvbW1lbnQgb24gYSB0YXNrICh1c2UgQGFnZW50IHRvIG5vdGlmeSkgfAp8IGBsaXN0X2dvYWxzYCB8IExpc3QgY29tcGFueSBnb2FscyB8CnwgYGNyZWF0ZV9nb2FsYCB8IENyZWF0ZSBhIGdvYWwgfAp8IGB1cGRhdGVfZ29hbGAgfCBVcGRhdGUgYSBnb2FsIHwKfCBgZGVsZXRlX2dvYWxgIHwgRGVsZXRlIGEgZ29hbCB8CnwgYGxpc3RfYXBwcm92YWxzYCB8IExpc3QgYXBwcm92YWwgcmVxdWVzdHMgfAp8IGBnZXRfYXBwcm92YWxgIHwgR2V0IGFwcHJvdmFsIGRldGFpbHMgfAp8IGBhcHByb3ZlX3JlcXVlc3RgIHwgQXBwcm92ZSBhIHBlbmRpbmcgcmVxdWVzdCB8CnwgYHJlamVjdF9yZXF1ZXN0YCB8IFJlamVjdCBhIHBlbmRpbmcgcmVxdWVzdCB8CnwgYHJlcXVlc3RfcmV2aXNpb25gIHwgUmVxdWVzdCBjaGFuZ2VzIGJlZm9yZSBhcHByb3ZpbmcgfAp8IGBsaXN0X3Byb2plY3RzYCB8IExpc3QgcHJvamVjdHMgfAp8IGBjcmVhdGVfcHJvamVjdGAgfCBDcmVhdGUgYSBwcm9qZWN0IHwKfCBgZGVsZXRlX3Byb2plY3RgIHwgRGVsZXRlIGEgcHJvamVjdCB8CgojIyBFbnZpcm9ubWVudCBWYXJpYWJsZXMKCnwgVmFyaWFibGUgfCBEZXNjcmlwdGlvbiB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgYFBBUEVSQ0xJUF9VUkxgIHwgWW91ciBQYXBlcmNsaXAgaW5zdGFuY2UgVVJMIHwKfCBgUEFQRVJDTElQX0VNQUlMYCB8IEJvYXJkIG9wZXJhdG9yIGVtYWlsIHwKfCBgUEFQRVJDTElQX1BBU1NXT1JEYCB8IEJvYXJkIG9wZXJhdG9yIHBhc3N3b3JkIHwKCiMjIERlcGxveW1lbnQgKERvY2tlciArIFNTRSBicmlkZ2UpCgpgYGBiYXNoCiMgQnVpbGQgdGhlIGltYWdlCmRvY2tlciBidWlsZCAtdCBwYXBlcmNsaXAtbWNwOmxhdGVzdCAuCgojIFJ1biB3aXRoIFNTRSBicmlkZ2UgKHBvcnQgMzAyOCkKZG9ja2VyIHJ1biAtZCAtLW5hbWUgbWNwLXBhcGVyY2xpcCBcCiAgLS1yZXN0YXJ0IHVubGVzcy1zdG9wcGVkIFwKICAtLW5ldHdvcmsgbzQwODB3czBvZzh3MDBvZ3MwOGNvNGNjIFwKICAtZSBDT01NQU5EPSJub2RlIC9hcHAvcGFwZXJjbGlwLW1jcC9kaXN0L2luZGV4LmpzIiBcCiAgLWUgUE9SVD0zMDAwIFwKICAtZSBQQVBFUkNMSVBfVVJMPWh0dHBzOi8vcGFwZXJjbGlwLnlvdXJkb21haW4uY29tIFwKICAtZSBQQVBFUkNMSVBfRU1BSUw9eW91ckBlbWFpbC5jb20gXAogIC1lIFBBUEVSQ0xJUF9QQVNTV09SRD15b3VycGFzc3dvcmQgXAogIC1wIDMwMjg6MzAwMCBcCiAgcGFwZXJjbGlwLW1jcDpsYXRlc3Qgbm9kZSAvYXBwL3NlcnZlci5qcwoKZG9ja2VyIGNwIC9yb290L3NlcnZlci5qcyBtY3AtcGFwZXJjbGlwOi9hcHAvc2VydmVyLmpzCmRvY2tlciByZXN0YXJ0IG1jcC1wYXBlcmNsaXAKYGBgCgojIyBDbGllbnQgQ29uZmlndXJhdGlvbgoKIyMjIENsYXVkZSBDb2RlICh+Ly5jbGF1ZGUvc2V0dGluZ3MuanNvbikKYGBganNvbgp7CiAgIm1jcFNlcnZlcnMiOiB7CiAgICAicGFwZXJjbGlwIjogewogICAgICAidHlwZSI6ICJzc2UiLAogICAgICAidXJsIjogImh0dHA6Ly9sb2NhbGhvc3Q6MzAyOC9zc2UiCiAgICB9CiAgfQp9CmBgYAoKIyMjIEdlbWluaSBDTEkgKH4vLmdlbWluaS9zZXR0aW5ncy5qc29uKQpgYGBqc29uCnsKICAibWNwU2VydmVycyI6IHsKICAgICJwYXBlcmNsaXAiOiB7CiAgICAgICJ0eXBlIjogInNzZSIsCiAgICAgICJ1cmwiOiAiaHR0cDovL2xvY2FsaG9zdDozMDI4L3NzZSIKICAgIH0KICB9Cn0KYGBgCgojIyMgVlMgQ29kZSBDb3BpbG90ICgudnNjb2RlL21jcC5qc29uKQpgYGBqc29uCnsKICAic2VydmVycyI6IHsKICAgICJwYXBlcmNsaXAiOiB7CiAgICAgICJ0eXBlIjogInNzZSIsCiAgICAgICJ1cmwiOiAiaHR0cDovL2xvY2FsaG9zdDozMDI4L3NzZSIKICAgIH0KICB9Cn0KYGBgCgojIyMgQ29kZXgKYGBganNvbgp7CiAgIm1jcFNlcnZlcnMiOiB7CiAgICAicGFwZXJjbGlwIjogewogICAgICAidHlwZSI6ICJzc2UiLAogICAgICAidXJsIjogImh0dHA6Ly9sb2NhbGhvc3Q6MzAyOC9zc2UiCiAgICB9CiAgfQp9CmBgYAo=
+# paperclip-mcp
+
+MCP server for the [Paperclip](https://paperclip.ing) AI agent orchestration platform.
+
+## Tools
+
+| Tool | Description |
+|------|-------------|
+| `list_companies` | List all companies |
+| `get_company` | Get company details |
+| `get_dashboard` | Dashboard overview (agents, tasks, spend) |
+| `create_company` | Create a new company |
+| `list_agents` | List agents in a company |
+| `get_agent` | Get agent details |
+| `create_agent` | Hire a new agent |
+| `update_agent` | Update agent config |
+| `pause_agent` | Pause an agent's heartbeat |
+| `resume_agent` | Resume a paused agent |
+| `get_agent_skills` | Get agent SKILLS.md / instructions bundle |
+| `update_agent_skills_file` | Write a file to agent's instructions bundle |
+| `delete_agent_skills_file` | Delete a file from agent's instructions bundle |
+| `invoke_agent_heartbeat` | Manually trigger an agent |
+| `get_org_chart` | Get company org chart |
+| `list_issues` | List tasks with filters |
+| `get_issue` | Get task details |
+| `create_issue` | Create a new task |
+| `update_issue` | Update a task |
+| `delete_issue` | Delete a task |
+| `add_issue_comment` | Comment on a task (use @agent to notify) |
+| `list_goals` | List company goals |
+| `create_goal` | Create a goal |
+| `update_goal` | Update a goal |
+| `delete_goal` | Delete a goal |
+| `list_approvals` | List approval requests |
+| `get_approval` | Get approval details |
+| `approve_request` | Approve a pending request |
+| `reject_request` | Reject a pending request |
+| `request_revision` | Request changes before approving |
+| `list_projects` | List projects |
+| `create_project` | Create a project |
+| `delete_project` | Delete a project |
+
+## Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `PAPERCLIP_URL` | Your Paperclip instance URL |
+| `PAPERCLIP_EMAIL` | Board operator email |
+| `PAPERCLIP_PASSWORD` | Board operator password |
+
+## Deployment (Docker + SSE bridge)
+
+```bash
+# Build the image
+docker build -t paperclip-mcp:latest .
+
+# Run with SSE bridge (port 3028)
+docker run -d --name mcp-paperclip \
+  --restart unless-stopped \
+  --network o4080ws0og8w00ogs08co4cc \
+  -e COMMAND="node /app/paperclip-mcp/dist/index.js" \
+  -e PORT=3000 \
+  -e PAPERCLIP_URL=https://paperclip.yourdomain.com \
+  -e PAPERCLIP_EMAIL=your@email.com \
+  -e PAPERCLIP_PASSWORD=yourpassword \
+  -p 3028:3000 \
+  paperclip-mcp:latest node /app/server.js
+
+docker cp /root/server.js mcp-paperclip:/app/server.js
+docker restart mcp-paperclip
+```
+
+## Client Configuration
+
+### Claude Code (~/.claude/settings.json)
+```json
+{
+  "mcpServers": {
+    "paperclip": {
+      "type": "sse",
+      "url": "http://localhost:3028/sse"
+    }
+  }
+}
+```
+
+### Gemini CLI (~/.gemini/settings.json)
+```json
+{
+  "mcpServers": {
+    "paperclip": {
+      "type": "sse",
+      "url": "http://localhost:3028/sse"
+    }
+  }
+}
+```
+
+### VS Code Copilot (.vscode/mcp.json)
+```json
+{
+  "servers": {
+    "paperclip": {
+      "type": "sse",
+      "url": "http://localhost:3028/sse"
+    }
+  }
+}
+```
+
+### Codex
+```json
+{
+  "mcpServers": {
+    "paperclip": {
+      "type": "sse",
+      "url": "http://localhost:3028/sse"
+    }
+  }
+}
+```
