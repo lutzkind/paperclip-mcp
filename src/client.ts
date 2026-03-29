@@ -7,7 +7,7 @@ let sessionCookie: string | null = null;
 async function login(): Promise<void> {
   const res = await fetch(`${PAPERCLIP_URL}/api/auth/sign-in/email`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", Origin: PAPERCLIP_URL },
     body: JSON.stringify({ email: PAPERCLIP_EMAIL, password: PAPERCLIP_PASSWORD }),
   });
   if (!res.ok) {
@@ -25,10 +25,11 @@ export async function api(
   if (!sessionCookie) await login();
 
   const doRequest = async (): Promise<Response> => {
-    return fetch(`${PAPERCLIP_URL}${path}`, {
+    return fetch(`${PAPERCLIP_URL}/api${path}`, {
       method: options.method ?? "GET",
       headers: {
         "Content-Type": "application/json",
+        Origin: PAPERCLIP_URL,
         Cookie: sessionCookie!,
       },
       body: options.body !== undefined ? JSON.stringify(options.body) : undefined,
