@@ -7,6 +7,11 @@ import { issueTools } from "./tools/issues.js";
 import { goalTools } from "./tools/goals.js";
 import { approvalTools } from "./tools/approvals.js";
 import { projectTools } from "./tools/projects.js";
+import { memoryTools } from "./tools/memories.js";
+import { mcpServerTools } from "./tools/mcp-servers.js";
+import { skillTools } from "./tools/skills.js";
+import { kpiTools } from "./tools/kpis.js";
+import { routineTools } from "./tools/routines.js";
 
 const allTools = [
   ...companyTools,
@@ -15,9 +20,14 @@ const allTools = [
   ...goalTools,
   ...approvalTools,
   ...projectTools,
+  ...memoryTools,
+  ...mcpServerTools,
+  ...skillTools,
+  ...kpiTools,
+  ...routineTools,
 ];
 
-const server = new McpServer({ name: "paperclip-mcp", version: "1.0.0" });
+const server = new McpServer({ name: "paperclip-mcp", version: "2.0.0" });
 
 for (const tool of allTools) {
   const props = (tool.inputSchema.properties ?? {}) as Record<
