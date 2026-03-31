@@ -96,4 +96,32 @@ export const mcpServerTools = [
     handler: async ({ companyId, serverId }: { companyId: string; serverId: string }) =>
       api(`/companies/${companyId}/mcp-servers/${serverId}`, { method: "DELETE" }),
   },
+  {
+    name: "exclude_mcp_from_agent",
+    description: "Exclude a company MCP server from a specific agent — the agent will not have access to it (V2)",
+    inputSchema: {
+      type: "object",
+      properties: {
+        agentId: { type: "string", description: "Agent UUID" },
+        mcpServerId: { type: "string", description: "MCP server UUID to exclude" },
+      },
+      required: ["agentId", "mcpServerId"],
+    },
+    handler: async ({ agentId, mcpServerId }: { agentId: string; mcpServerId: string }) =>
+      api(`/agents/${agentId}/mcp-exclusions`, { method: "POST", body: { mcpServerId } }),
+  },
+  {
+    name: "remove_mcp_exclusion",
+    description: "Re-enable a previously excluded MCP server for an agent (V2)",
+    inputSchema: {
+      type: "object",
+      properties: {
+        agentId: { type: "string", description: "Agent UUID" },
+        serverId: { type: "string", description: "MCP server UUID to re-enable" },
+      },
+      required: ["agentId", "serverId"],
+    },
+    handler: async ({ agentId, serverId }: { agentId: string; serverId: string }) =>
+      api(`/agents/${agentId}/mcp-exclusions/${serverId}`, { method: "DELETE" }),
+  },
 ];

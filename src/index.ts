@@ -12,6 +12,8 @@ import { mcpServerTools } from "./tools/mcp-servers.js";
 import { skillTools } from "./tools/skills.js";
 import { kpiTools } from "./tools/kpis.js";
 import { routineTools } from "./tools/routines.js";
+import { observationTools } from "./tools/observations.js";
+import { experimentTools } from "./tools/experiments.js";
 
 const allTools = [
   ...companyTools,
@@ -25,6 +27,8 @@ const allTools = [
   ...skillTools,
   ...kpiTools,
   ...routineTools,
+  ...observationTools,
+  ...experimentTools,
 ];
 
 const server = new McpServer({ name: "paperclip-mcp", version: "2.0.0" });
